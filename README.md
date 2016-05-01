@@ -27,7 +27,7 @@ Setup for creating a timelapse camera out of a Raspberry PI
   - `sudo service apache2 restart`
 - Start your timelapse: `./do_timelapse.sh`
 - You can follow the progess from any browser. Just go to `http://<your rPI IP>`
-- After the timelapse finishes execute from your computer `./create_video.sh`
+- After the timelapse finishes, execute from your computer `./create_video.sh`
 
 ## Notes
 
