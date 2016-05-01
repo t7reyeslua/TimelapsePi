@@ -13,7 +13,7 @@ Setup for creating a timelapse camera out of a Raspberry PI
 - Install latest Raspbian on your rPI
 - Execute `sudo raspi-config` to:
   - Enable Raspberry PI camera module
-  - Expand the filesystem in the rPI so you can make use of all its storage
+  - Expand the filesystem in the rPI so you can make use of all its storage. Beware that depending on the quality of your pictures and the duration of your timelapse, the rPI can run out of space.
 - Enable internet connection for your rPI
 
 ## Steps
