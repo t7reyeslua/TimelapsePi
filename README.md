@@ -33,4 +33,5 @@ Setup for creating a timelapse camera out of a Raspberry PI
 
 - You can check the content of the scripts for further explanations and to edit some harcoded parameters and paths.
 - You can also create a cron task to start the `do_timelapse.sh` on bootup.
+- You might probably need to disable apache's default site. Just remove it from `/etc/apache2/sites-available`
 - [This] (https://www.raspberrypi.org/learning/timelapse-setup/worksheet/) is another guide with a very similar approach.
