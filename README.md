@@ -31,7 +31,6 @@ Setup for creating a timelapse camera out of a Raspberry PI
 
 ## Notes
 
-- You can check the content of the scripts for further explanations
-- This is a very quick and dirty implementation
+- You can check the content of the scripts for further explanations and to edit some harcoded parameters and paths.
 - You can also create a cron task to start the `do_timelapse.sh` on bootup.
 - [This] (https://www.raspberrypi.org/learning/timelapse-setup/worksheet/) is another guide with a very similar approach.
