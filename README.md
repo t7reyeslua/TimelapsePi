@@ -19,6 +19,7 @@ Setup for creating a timelapse camera out of a Raspberry PI
 ## Steps
 
 - Clone this repository into the raspberry PI. The scripts assume it is under `/home/pi/dev/`
+- Install mencoder: `sudo apt-get install mencoder`
 - Install apache: `sudo apt-get install apache2`
 - Enable timelapse virtual host:
   - `cp /home/pi/dev/Timelapse/timelapse.conf /etc/apache2/sites-available/timelapse.conf`
